@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.NETCoreApp", "Avalonia.NETCoreApp\Avalonia.NETCoreApp.csproj", "{6B8DD912-0175-4611-AADC-AEC792C75FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.NETCoreApp.Web", "Avalonia.NETCoreApp.Web\Avalonia.NETCoreApp.Web.csproj", "{9241D82C-05EE-445E-8049-2B808324BCF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8DD912-0175-4611-AADC-AEC792C75FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8DD912-0175-4611-AADC-AEC792C75FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8DD912-0175-4611-AADC-AEC792C75FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8DD912-0175-4611-AADC-AEC792C75FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9241D82C-05EE-445E-8049-2B808324BCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9241D82C-05EE-445E-8049-2B808324BCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9241D82C-05EE-445E-8049-2B808324BCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9241D82C-05EE-445E-8049-2B808324BCF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

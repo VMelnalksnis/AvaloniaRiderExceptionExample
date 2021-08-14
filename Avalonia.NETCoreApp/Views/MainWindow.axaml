@@ -1,0 +1,28 @@
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Avalonia.NETCoreApp.ViewModels"
+    xmlns:data1="clr-namespace:Avalonia.NETCoreApp.Web.Data;assembly=Avalonia.NETCoreApp.Web"
+    mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+    x:Class="Avalonia.NETCoreApp.Views.MainWindow"
+    Title="Avalonia.NETCoreApp"
+    x:DataType="vm:MainWindowViewModel"
+    x:CompileBindings="True">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>Foo</TextBlock>
+        <DataGrid Items="{Binding Values}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    x:DataType="data1:Model"
+                    Header="Name" Binding="{Binding Name}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>
